@@ -7,6 +7,11 @@ class AdditionalInsurance
         who: "drivy",
         type: "additional_insurance",
         amount: 10
+      },
+      {
+        who: 'driver',
+        type: "additional_insurance",
+        amount: 10
       }
     ]
   end

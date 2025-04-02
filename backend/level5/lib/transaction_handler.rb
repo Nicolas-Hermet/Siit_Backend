@@ -46,7 +46,7 @@ class TransactionHandler
       option_action = AdditionalOption.new(option['type'].to_sym).action
       option_action.each do |transaction|
         action = @actions.find { |action| action[:who] == transaction[:who].to_sym }
-        action[:amount] += transaction[:amount]
+        action[:amount] += transaction[:amount] * @rental.number_of_days
       end
     end
   end

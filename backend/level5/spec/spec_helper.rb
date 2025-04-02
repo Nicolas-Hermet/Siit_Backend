@@ -1,6 +1,10 @@
 require 'rspec'
 require 'date'
-Dir["./lib/**/*.rb"].each { |f| require f }
-require_relative 'gps'
-require_relative 'baby_seat'
-require_relative 'additional_insurance'
+require 'json'
+# Dir["../lib/**/*.rb"].each { |f| require f }
+require_relative '../lib/car'
+require_relative '../lib/rental'
+require_relative '../lib/price_decreaser'
+require_relative '../lib/commission_spliter'
+require_relative '../lib/additional_option'
+require_relative '../lib/transaction_handler'

@@ -15,22 +15,22 @@
         {
           "who": "owner",
           "type": "credit",
-          "amount": 2107
+          "amount": 2107.0
         },
         {
           "who": "insurance",
           "type": "credit",
-          "amount": 450
+          "amount": 450.0
         },
         {
           "who": "assistance",
           "type": "credit",
-          "amount": 1.00
+          "amount": 1.0
         },
         {
           "who": "drivy",
           "type": "credit",
-          "amount": 449
+          "amount": 449.0
         }
       ]
     },
@@ -48,12 +48,12 @@
         {
           "who": "owner",
           "type": "credit",
-          "amount": 4760
+          "amount": 4760.0
         },
         {
           "who": "insurance",
           "type": "credit",
-          "amount": 1020
+          "amount": 1020.0
         },
         {
           "who": "assistance",
@@ -63,7 +63,7 @@
         {
           "who": "drivy",
           "type": "credit",
-          "amount": 1038
+          "amount": 1038.0
         }
       ]
     },
@@ -79,12 +79,12 @@
         {
           "who": "owner",
           "type": "credit",
-          "amount": 19460
+          "amount": 19460.0
         },
         {
           "who": "insurance",
           "type": "credit",
-          "amount": 4170
+          "amount": 4170.0
         },
         {
           "who": "assistance",
@@ -94,7 +94,7 @@
         {
           "who": "drivy",
           "type": "credit",
-          "amount": 4158
+          "amount": 4158.0
         }
       ]
     }
